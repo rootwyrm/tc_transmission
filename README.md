@@ -1,6 +1,7 @@
 #Transmission Port Layout
 
 Transmission uses ports 9091 (TCP/UDP) for web interface and peer communications. The traffic port has been moved to 43454 (no range.) This can be changed in settings.json.
+Note: do not use more than 5 UDP ports, which will increase memory demand to more than 1.25GB! If you need a wider UDP port range, use the TaleCaster Host Appliance.
 
 #Blacklist Automatic Update
 **Work in progress.**
